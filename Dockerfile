@@ -17,7 +17,7 @@ ENV CXX ccache g++
 
 FROM dummy AS getter
 
-RUN dnf -y update && dnf -y upgrade --refresh \
+RUN dnf -y update && dnf -y makecache --refresh \
     && dnf -y install \
        sudo \
        python39 \
