@@ -20,8 +20,8 @@ FROM dummy AS getter
 RUN dnf -y update && dnf -y upgrade --refresh \
     && dnf -y install \
        sudo \
-       python3-devel \
-       python3-pip \
+       python39 \
+       python39-pip \
        gcc \
        gcc-g++ \
        git \
