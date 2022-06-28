@@ -24,8 +24,8 @@ RUN dnf -y update && dnf -y makecache --refresh \
        python39-pip \
        gcc-toolset-10 \
        git \
-       ccache \
-       cppcheck \
+       # ccache \
+       # cppcheck \
        ncurses-devel
 
 RUN pip3 -q install --upgrade pip \
