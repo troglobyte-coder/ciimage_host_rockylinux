@@ -11,8 +11,8 @@ ENV LANG 'C.UTF-8'
 ENV CI 1
 
 # setting compiler env vars
-ENV CC ccache gcc
-ENV CXX ccache g++
+ENV CC gcc
+ENV CXX g++
 
 
 FROM dummy AS getter
