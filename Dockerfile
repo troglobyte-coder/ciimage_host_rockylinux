@@ -22,10 +22,7 @@ RUN dnf -y update && dnf -y makecache --refresh \
        sudo \
        python39 \
        python39-pip \
-       gcc \
-       gcc-g++ \
-       gdb \
-       glibc-devel \
+       build-essential \
        git \
        # ccache \
        # cppcheck \
